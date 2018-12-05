@@ -1,0 +1,828 @@
+fileFormatVersion: 2
+guid: 9cd0060bab6077e41a800a18e23c3efd
+timeCreated: 1499091383
+licenseType: Store
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: cliffs_0
+    21300002: cliffs_1
+    21300004: cliffs_2
+    21300006: cliffs_3
+    21300008: cliffs_4
+    21300010: cliffs_5
+    21300012: cliffs_6
+    21300014: cliffs_7
+    21300016: cliffs_8
+    21300018: cliffs_9
+    21300020: cliffs_10
+    21300022: cliffs_11
+    21300024: cliffs_12
+    21300026: cliffs_13
+    21300028: cliffs_14
+    21300030: cliffs_15
+    21300032: cliffs_16
+    21300034: cliffs_17
+    21300036: cliffs_18
+    21300038: cliffs_19
+    21300040: cliffs_20
+    21300042: cliffs_21
+    21300044: cliffs_22
+    21300046: cliffs_23
+    21300048: cliffs_24
+    21300050: cliffs_25
+    21300052: cliffs_26
+    21300054: cliffs_27
+    21300056: cliffs_28
+    21300058: cliffs_29
+    21300060: cliffs_30
+    21300062: cliffs_31
+    21300064: cliffs_32
+    21300066: cliffs_33
+    21300068: cliffs_34
+    21300070: cliffs_35
+    21300072: cliffs_36
+    21300074: cliffs_37
+    21300076: cliffs_38
+    21300078: cliffs_39
+    21300080: cliffs_40
+    21300082: cliffs_41
+    21300084: cliffs_42
+    21300086: cliffs_43
+    21300088: cliffs_44
+    21300090: cliffs_45
+    21300092: cliffs_46
+    21300094: cliffs_47
+    21300096: cliffs_48
+    21300098: cliffs_49
+    21300100: cliffs_50
+    21300102: cliffs_51
+  serializedVersion: 4
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: -1
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  - buildTarget: Standalone
+    maxTextureSize: 2048
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  - buildTarget: iPhone
+    maxTextureSize: 2048
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  - buildTarget: Android
+    maxTextureSize: 2048
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  - buildTarget: WebGL
+    maxTextureSize: 2048
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: cliffs_0
+      rect:
+        serializedVersion: 2
+        x: 231
+        y: 3763
+        width: 90
+        height: 122
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: cliffs_1
+      rect:
+        serializedVersion: 2
+        x: 254
+        y: 3873
+        width: 211
+        height: 210
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: cliffs_2
+      rect:
+        serializedVersion: 2
+        x: 760
+        y: 3024
+        width: 701
+        height: 1065
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: cliffs_3
+      rect:
+        serializedVersion: 2
+        x: 1493
+        y: 3093
+        width: 731
+        height: 998
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: cliffs_4
+      rect:
+        serializedVersion: 2
+        x: 2267
+        y: 2800
+        width: 848
+        height: 1257
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: cliffs_5
+      rect:
+        serializedVersion: 2
+        x: 3162
+        y: 2816
+        width: 894
+        height: 1235
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: cliffs_6
+      rect:
+        serializedVersion: 2
+        x: 61
+        y: 3328
+        width: 440
+        height: 496
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: cliffs_7
+      rect:
+        serializedVersion: 2
+        x: 403
+        y: 3470
+        width: 128
+        height: 151
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: cliffs_8
+      rect:
+        serializedVersion: 2
+        x: 499
+        y: 3400
+        width: 130
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: cliffs_9
+      rect:
+        serializedVersion: 2
+        x: 135
+        y: 3171
+        width: 138
+        height: 165
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: cliffs_10
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 3014
+        width: 81
+        height: 162
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: cliffs_11
+      rect:
+        serializedVersion: 2
+        x: 315
+        y: 3150
+        width: 150
+        height: 185
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: cliffs_12
+      rect:
+        serializedVersion: 2
+        x: 1613
+        y: 3075
+        width: 16
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: cliffs_13
+      rect:
+        serializedVersion: 2
+        x: 219
+        y: 2925
+        width: 109
+        height: 146
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: cliffs_14
+      rect:
+        serializedVersion: 2
+        x: 1232
+        y: 3000
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: cliffs_15
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 1685
+        width: 597
+        height: 1166
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: cliffs_16
+      rect:
+        serializedVersion: 2
+        x: 696
+        y: 1753
+        width: 683
+        height: 1223
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: cliffs_17
+      rect:
+        serializedVersion: 2
+        x: 1507
+        y: 1621
+        width: 766
+        height: 1237
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: cliffs_18
+      rect:
+        serializedVersion: 2
+        x: 2824
+        y: 1464
+        width: 600
+        height: 1169
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: cliffs_19
+      rect:
+        serializedVersion: 2
+        x: 3477
+        y: 1455
+        width: 606
+        height: 1190
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: cliffs_20
+      rect:
+        serializedVersion: 2
+        x: 3479
+        y: 1451
+        width: 233
+        height: 338
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: cliffs_21
+      rect:
+        serializedVersion: 2
+        x: 49
+        y: 1311
+        width: 728
+        height: 273
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: cliffs_22
+      rect:
+        serializedVersion: 2
+        x: 925
+        y: 1343
+        width: 762
+        height: 281
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: cliffs_23
+      rect:
+        serializedVersion: 2
+        x: 2022
+        y: 1534
+        width: 15
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: cliffs_24
+      rect:
+        serializedVersion: 2
+        x: 2073
+        y: 1547
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: cliffs_25
+      rect:
+        serializedVersion: 2
+        x: 2504
+        y: 1361
+        width: 187
+        height: 204
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: cliffs_26
+      rect:
+        serializedVersion: 2
+        x: 1999
+        y: 1349
+        width: 208
+        height: 179
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: cliffs_27
+      rect:
+        serializedVersion: 2
+        x: 2430
+        y: 1514
+        width: 6
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: cliffs_28
+      rect:
+        serializedVersion: 2
+        x: 63
+        y: 23
+        width: 849
+        height: 1256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: cliffs_29
+      rect:
+        serializedVersion: 2
+        x: 2077
+        y: 1120
+        width: 150
+        height: 161
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: cliffs_30
+      rect:
+        serializedVersion: 2
+        x: 2336
+        y: 1243
+        width: 195
+        height: 134
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: cliffs_31
+      rect:
+        serializedVersion: 2
+        x: 2536
+        y: 1157
+        width: 200
+        height: 134
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: cliffs_32
+      rect:
+        serializedVersion: 2
+        x: 2947
+        y: 1119
+        width: 528
+        height: 242
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: cliffs_33
+      rect:
+        serializedVersion: 2
+        x: 3551
+        y: 1119
+        width: 505
+        height: 249
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: cliffs_34
+      rect:
+        serializedVersion: 2
+        x: 1061
+        y: 13
+        width: 683
+        height: 1222
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: cliffs_35
+      rect:
+        serializedVersion: 2
+        x: 2068
+        y: 845
+        width: 149
+        height: 162
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: cliffs_36
+      rect:
+        serializedVersion: 2
+        x: 2981
+        y: 663
+        width: 142
+        height: 201
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: cliffs_37
+      rect:
+        serializedVersion: 2
+        x: 3376
+        y: 5
+        width: 703
+        height: 1064
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: cliffs_38
+      rect:
+        serializedVersion: 2
+        x: 1823
+        y: 660
+        width: 172
+        height: 167
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: cliffs_39
+      rect:
+        serializedVersion: 2
+        x: 2119
+        y: 821
+        width: 10
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: cliffs_40
+      rect:
+        serializedVersion: 2
+        x: 2847
+        y: 739
+        width: 66
+        height: 79
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: cliffs_41
+      rect:
+        serializedVersion: 2
+        x: 2673
+        y: 508
+        width: 198
+        height: 198
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: cliffs_42
+      rect:
+        serializedVersion: 2
+        x: 2843
+        y: 641
+        width: 77
+        height: 87
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: cliffs_43
+      rect:
+        serializedVersion: 2
+        x: 1853
+        y: 347
+        width: 150
+        height: 181
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: cliffs_44
+      rect:
+        serializedVersion: 2
+        x: 2281
+        y: 377
+        width: 136
+        height: 175
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: cliffs_45
+      rect:
+        serializedVersion: 2
+        x: 2728
+        y: 191
+        width: 203
+        height: 297
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: cliffs_46
+      rect:
+        serializedVersion: 2
+        x: 3008
+        y: 421
+        width: 149
+        height: 115
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: cliffs_47
+      rect:
+        serializedVersion: 2
+        x: 3085
+        y: 149
+        width: 261
+        height: 387
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: cliffs_48
+      rect:
+        serializedVersion: 2
+        x: 2277
+        y: 244
+        width: 100
+        height: 124
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: cliffs_49
+      rect:
+        serializedVersion: 2
+        x: 2904
+        y: 268
+        width: 121
+        height: 121
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: cliffs_50
+      rect:
+        serializedVersion: 2
+        x: 2030
+        y: 25
+        width: 115
+        height: 157
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: cliffs_51
+      rect:
+        serializedVersion: 2
+        x: 2048
+        y: 18
+        width: 5
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

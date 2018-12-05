@@ -1,0 +1,1234 @@
+fileFormatVersion: 2
+guid: cc893ad6fb5aa28439da2a49ce1893f3
+timeCreated: 1499092008
+licenseType: Store
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: TallTrees_0
+    21300002: TallTrees_1
+    21300004: TallTrees_2
+    21300006: TallTrees_3
+    21300008: TallTrees_4
+    21300010: TallTrees_5
+    21300012: TallTrees_6
+    21300014: TallTrees_7
+    21300016: TallTrees_8
+    21300018: TallTrees_9
+    21300020: TallTrees_10
+    21300022: TallTrees_11
+    21300024: TallTrees_12
+    21300026: TallTrees_13
+    21300028: TallTrees_14
+    21300030: TallTrees_15
+    21300032: TallTrees_16
+    21300034: TallTrees_17
+    21300036: TallTrees_18
+    21300038: TallTrees_19
+    21300040: TallTrees_20
+    21300042: TallTrees_21
+    21300044: TallTrees_22
+    21300046: TallTrees_23
+    21300048: TallTrees_24
+    21300050: TallTrees_25
+    21300052: TallTrees_26
+    21300054: TallTrees_27
+    21300056: TallTrees_28
+    21300058: TallTrees_29
+    21300060: TallTrees_30
+    21300062: TallTrees_31
+    21300064: TallTrees_32
+    21300066: TallTrees_33
+    21300068: TallTrees_34
+    21300070: TallTrees_35
+    21300072: TallTrees_36
+    21300074: TallTrees_37
+    21300076: TallTrees_38
+    21300078: TallTrees_39
+    21300080: TallTrees_40
+    21300082: TallTrees_41
+    21300084: TallTrees_42
+    21300086: TallTrees_43
+    21300088: TallTrees_44
+    21300090: TallTrees_45
+    21300092: TallTrees_46
+    21300094: TallTrees_47
+    21300096: TallTrees_48
+    21300098: TallTrees_49
+    21300100: TallTrees_50
+    21300102: TallTrees_51
+    21300104: TallTrees_52
+    21300106: TallTrees_53
+    21300108: TallTrees_54
+    21300110: TallTrees_55
+    21300112: TallTrees_56
+    21300114: TallTrees_57
+    21300116: TallTrees_58
+    21300118: TallTrees_59
+    21300120: TallTrees_60
+    21300122: TallTrees_61
+    21300124: TallTrees_62
+    21300126: TallTrees_63
+    21300128: TallTrees_64
+    21300130: TallTrees_65
+    21300132: TallTrees_66
+    21300134: TallTrees_67
+    21300136: TallTrees_68
+    21300138: TallTrees_69
+    21300140: TallTrees_70
+    21300142: TallTrees_71
+    21300144: TallTrees_72
+    21300146: TallTrees_73
+    21300148: TallTrees_74
+    21300150: TallTrees_75
+    21300152: TallTrees_76
+    21300154: TallTrees_77
+    21300156: TallTrees_78
+    21300158: TallTrees_79
+    21300160: TallTrees_80
+  serializedVersion: 4
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: -1
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  - buildTarget: Standalone
+    maxTextureSize: 2048
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  - buildTarget: iPhone
+    maxTextureSize: 2048
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  - buildTarget: Android
+    maxTextureSize: 2048
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  - buildTarget: WebGL
+    maxTextureSize: 2048
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: TallTrees_0
+      rect:
+        serializedVersion: 2
+        x: 496
+        y: 1880
+        width: 223
+        height: 88
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: TallTrees_1
+      rect:
+        serializedVersion: 2
+        x: 680
+        y: 1944
+        width: 64
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: TallTrees_2
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 1960
+        width: 35
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: TallTrees_3
+      rect:
+        serializedVersion: 2
+        x: 819
+        y: 1961
+        width: 78
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: TallTrees_4
+      rect:
+        serializedVersion: 2
+        x: 976
+        y: 1950
+        width: 109
+        height: 76
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: TallTrees_5
+      rect:
+        serializedVersion: 2
+        x: 1113
+        y: 1959
+        width: 103
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: TallTrees_6
+      rect:
+        serializedVersion: 2
+        x: 1248
+        y: 1952
+        width: 69
+        height: 81
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: TallTrees_7
+      rect:
+        serializedVersion: 2
+        x: 1336
+        y: 1943
+        width: 72
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: TallTrees_8
+      rect:
+        serializedVersion: 2
+        x: 1421
+        y: 1935
+        width: 22
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: TallTrees_9
+      rect:
+        serializedVersion: 2
+        x: 720
+        y: 1863
+        width: 112
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: TallTrees_10
+      rect:
+        serializedVersion: 2
+        x: 856
+        y: 1888
+        width: 41
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: TallTrees_11
+      rect:
+        serializedVersion: 2
+        x: 885
+        y: 1872
+        width: 32
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: TallTrees_12
+      rect:
+        serializedVersion: 2
+        x: 907
+        y: 1893
+        width: 90
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: TallTrees_13
+      rect:
+        serializedVersion: 2
+        x: 1053
+        y: 1843
+        width: 80
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: TallTrees_14
+      rect:
+        serializedVersion: 2
+        x: 1119
+        y: 1845
+        width: 136
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: TallTrees_15
+      rect:
+        serializedVersion: 2
+        x: 1243
+        y: 1848
+        width: 54
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: TallTrees_16
+      rect:
+        serializedVersion: 2
+        x: 1261
+        y: 1887
+        width: 146
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: TallTrees_17
+      rect:
+        serializedVersion: 2
+        x: 1317
+        y: 1852
+        width: 62
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: TallTrees_18
+      rect:
+        serializedVersion: 2
+        x: 1449
+        y: 1889
+        width: 18
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: TallTrees_19
+      rect:
+        serializedVersion: 2
+        x: 1133
+        y: 1783
+        width: 52
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: TallTrees_20
+      rect:
+        serializedVersion: 2
+        x: 381
+        y: 31
+        width: 403
+        height: 1646
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: TallTrees_21
+      rect:
+        serializedVersion: 2
+        x: 857
+        y: 16
+        width: 288
+        height: 1629
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: TallTrees_22
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 25
+        width: 456
+        height: 1623
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: TallTrees_23
+      rect:
+        serializedVersion: 2
+        x: 1910
+        y: 1575
+        width: 18
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: TallTrees_24
+      rect:
+        serializedVersion: 2
+        x: 2373
+        y: 167
+        width: 438
+        height: 1465
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: TallTrees_25
+      rect:
+        serializedVersion: 2
+        x: 3184
+        y: 157
+        width: 648
+        height: 1472
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: TallTrees_26
+      rect:
+        serializedVersion: 2
+        x: 168
+        y: 1513
+        width: 59
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: TallTrees_27
+      rect:
+        serializedVersion: 2
+        x: 1904
+        y: 1509
+        width: 39
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: TallTrees_28
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 1405
+        width: 137
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: TallTrees_29
+      rect:
+        serializedVersion: 2
+        x: 177
+        y: 1397
+        width: 28
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: TallTrees_30
+      rect:
+        serializedVersion: 2
+        x: 1861
+        y: 1399
+        width: 54
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: TallTrees_31
+      rect:
+        serializedVersion: 2
+        x: 1927
+        y: 1407
+        width: 46
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: TallTrees_32
+      rect:
+        serializedVersion: 2
+        x: 179
+        y: 1345
+        width: 26
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: TallTrees_33
+      rect:
+        serializedVersion: 2
+        x: 207
+        y: 1363
+        width: 48
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: TallTrees_34
+      rect:
+        serializedVersion: 2
+        x: 1833
+        y: 1273
+        width: 74
+        height: 126
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: TallTrees_35
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 1311
+        width: 113
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: TallTrees_36
+      rect:
+        serializedVersion: 2
+        x: 1939
+        y: 1235
+        width: 56
+        height: 85
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: TallTrees_37
+      rect:
+        serializedVersion: 2
+        x: 191
+        y: 1257
+        width: 68
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: TallTrees_38
+      rect:
+        serializedVersion: 2
+        x: 1827
+        y: 1160
+        width: 88
+        height: 151
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: TallTrees_39
+      rect:
+        serializedVersion: 2
+        x: 151
+        y: 1205
+        width: 44
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: TallTrees_40
+      rect:
+        serializedVersion: 2
+        x: 207
+        y: 1183
+        width: 74
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: TallTrees_41
+      rect:
+        serializedVersion: 2
+        x: 165
+        y: 1173
+        width: 36
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: TallTrees_42
+      rect:
+        serializedVersion: 2
+        x: 1904
+        y: 1175
+        width: 19
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: TallTrees_43
+      rect:
+        serializedVersion: 2
+        x: 1927
+        y: 1071
+        width: 105
+        height: 132
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: TallTrees_44
+      rect:
+        serializedVersion: 2
+        x: 221
+        y: 1135
+        width: 70
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: TallTrees_45
+      rect:
+        serializedVersion: 2
+        x: 222
+        y: 1103
+        width: 42
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: TallTrees_46
+      rect:
+        serializedVersion: 2
+        x: 1861
+        y: 1055
+        width: 48
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: TallTrees_47
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 1045
+        width: 21
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: TallTrees_48
+      rect:
+        serializedVersion: 2
+        x: 205
+        y: 1039
+        width: 78
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: TallTrees_49
+      rect:
+        serializedVersion: 2
+        x: 169
+        y: 949
+        width: 26
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: TallTrees_50
+      rect:
+        serializedVersion: 2
+        x: 197
+        y: 947
+        width: 108
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: TallTrees_51
+      rect:
+        serializedVersion: 2
+        x: 1799
+        y: 896
+        width: 98
+        height: 125
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: TallTrees_52
+      rect:
+        serializedVersion: 2
+        x: 1952
+        y: 827
+        width: 103
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: TallTrees_53
+      rect:
+        serializedVersion: 2
+        x: 205
+        y: 872
+        width: 46
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: TallTrees_54
+      rect:
+        serializedVersion: 2
+        x: 253
+        y: 869
+        width: 24
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: TallTrees_55
+      rect:
+        serializedVersion: 2
+        x: 219
+        y: 805
+        width: 96
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: TallTrees_56
+      rect:
+        serializedVersion: 2
+        x: 1776
+        y: 703
+        width: 105
+        height: 113
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: TallTrees_57
+      rect:
+        serializedVersion: 2
+        x: 117
+        y: 751
+        width: 67
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: TallTrees_58
+      rect:
+        serializedVersion: 2
+        x: 196
+        y: 735
+        width: 87
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: TallTrees_59
+      rect:
+        serializedVersion: 2
+        x: 1813
+        y: 629
+        width: 96
+        height: 132
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: TallTrees_60
+      rect:
+        serializedVersion: 2
+        x: 1944
+        y: 613
+        width: 136
+        height: 163
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: TallTrees_61
+      rect:
+        serializedVersion: 2
+        x: 143
+        y: 709
+        width: 42
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: TallTrees_62
+      rect:
+        serializedVersion: 2
+        x: 189
+        y: 704
+        width: 27
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: TallTrees_63
+      rect:
+        serializedVersion: 2
+        x: 171
+        y: 679
+        width: 22
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: TallTrees_64
+      rect:
+        serializedVersion: 2
+        x: 173
+        y: 619
+        width: 94
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: TallTrees_65
+      rect:
+        serializedVersion: 2
+        x: 273
+        y: 645
+        width: 15
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: TallTrees_66
+      rect:
+        serializedVersion: 2
+        x: 93
+        y: 603
+        width: 90
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: TallTrees_67
+      rect:
+        serializedVersion: 2
+        x: 1877
+        y: 581
+        width: 44
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: TallTrees_68
+      rect:
+        serializedVersion: 2
+        x: 153
+        y: 561
+        width: 28
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: TallTrees_69
+      rect:
+        serializedVersion: 2
+        x: 191
+        y: 569
+        width: 26
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: TallTrees_70
+      rect:
+        serializedVersion: 2
+        x: 1833
+        y: 529
+        width: 48
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: TallTrees_71
+      rect:
+        serializedVersion: 2
+        x: 182
+        y: 495
+        width: 47
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: TallTrees_72
+      rect:
+        serializedVersion: 2
+        x: 1848
+        y: 461
+        width: 47
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: TallTrees_73
+      rect:
+        serializedVersion: 2
+        x: 1979
+        y: 433
+        width: 120
+        height: 91
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: TallTrees_74
+      rect:
+        serializedVersion: 2
+        x: 157
+        y: 437
+        width: 27
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: TallTrees_75
+      rect:
+        serializedVersion: 2
+        x: 181
+        y: 429
+        width: 84
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: TallTrees_76
+      rect:
+        serializedVersion: 2
+        x: 1853
+        y: 453
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: TallTrees_77
+      rect:
+        serializedVersion: 2
+        x: 151
+        y: 384
+        width: 38
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: TallTrees_78
+      rect:
+        serializedVersion: 2
+        x: 183
+        y: 368
+        width: 38
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: TallTrees_79
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 360
+        width: 47
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: TallTrees_80
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 291
+        width: 117
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
