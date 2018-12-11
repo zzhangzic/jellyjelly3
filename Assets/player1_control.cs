@@ -4,12 +4,14 @@ using UnityEngine;
 using UnityEngine.SceneManagement;
 
 public class player1_control : MonoBehaviour {
-    private int player_speed = 15;
+    private int player_speed = 30;
     private bool right = true;
     private float jump_power = 100f;
     private float moveX;
     public bool grounded = false;
     public GameObject player2;
+    public GameObject game_over_canvas;
+    public GameObject game_over_text;
     void Update()
     {
         float vel = this.GetComponent<Rigidbody2D>().velocity.y;
@@ -22,7 +24,14 @@ public class player1_control : MonoBehaviour {
         {
             grounded = false;
         }
-        player_movement();
+        if (enabled)
+        {
+            player_movement();
+        }
+    }
+    private void Start()
+    {
+        enabled = true;
     }
 
     void player_movement()
@@ -42,12 +51,14 @@ public class player1_control : MonoBehaviour {
             flip_player();
         }
         this.gameObject.GetComponent<Rigidbody2D>().velocity = new Vector2(moveX * player_speed, gameObject.GetComponent<Rigidbody2D>().velocity.y);
+        this.GetComponent<Animator>().SetBool("Walk", true);
     }
 
     
     void jump()
     {
-        GetComponent<Rigidbody2D>().AddForce(Vector2.up * 4000f);
+        this.GetComponent<AudioSource>().Play();
+        GetComponent<Rigidbody2D>().AddForce(Vector2.up * 200f);
     }
     void flip_player()
     {
@@ -60,20 +71,7 @@ public class player1_control : MonoBehaviour {
 
     private void OnCollisionEnter2D(Collision2D collision)
     {
-        //if (collision.gameObject.tag == "ground")
-        //{
-        //    grounded = true;
-        //}
-        //Debug.Log(collision.gameObject.name);
-    }
-
-    private void OnCollisionExit2D(Collision2D collision)
-    {
-    }
-
-    private void OnTriggerEnter2D(Collider2D collision)
-    {
-        if (collision.gameObject.tag == "river")
+        if (collision.gameObject.tag == "trap")
         {
             StartCoroutine("reset");
         }
@@ -81,7 +79,9 @@ public class player1_control : MonoBehaviour {
 
     IEnumerator reset()
     {
-        SceneManager.LoadScene("main");
+        Globals.play1_defeat += 1;
+        game_over_canvas.SetActive(true);
+        game_over_text.SetActive(true);
         yield return null;
     }
 }

@@ -11,6 +11,24 @@ public class player2_control : MonoBehaviour
     public bool jumping;
     public GameObject player1;
     public bool grounded = false;
+    public Vector3 current_checkpoint;
+    public GameObject player_objects;
+    public GameObject rope;
+    private float off_x;
+    private float off_y;
+    private float rope_x;
+    private float rope_y;
+    public GameObject game_over_canvas;
+    public GameObject game_over_text;
+
+    private void Start()
+    {
+        off_x = this.gameObject.transform.position.x - player1.transform.position.x;
+        off_y = this.gameObject.transform.position.y - player1.transform.position.y;
+        rope_x = rope.transform.position.x - this.gameObject.transform.position.x;
+        rope_y = rope.transform.position.y - this.gameObject.transform.position.y;
+    }
+
     void Update()
     {
         float vel = this.GetComponent<Rigidbody2D>().velocity.y;
@@ -56,7 +74,8 @@ public class player2_control : MonoBehaviour
 
     void jump()
     {
-        GetComponent<Rigidbody2D>().AddForce(Vector2.up * 4000f);
+        this.GetComponent<AudioSource>().Play();
+        GetComponent<Rigidbody2D>().AddForce(Vector2.up * 500f);
     }
     void flip_player()
     {
@@ -64,5 +83,21 @@ public class player2_control : MonoBehaviour
         Vector2 local_scale = this.gameObject.transform.localScale;
         local_scale.x *= -1;
         transform.localScale = local_scale;
+    }
+
+    private void OnCollisionEnter2D(Collision2D collision)
+    {
+        if (collision.gameObject.tag == "trap")
+        {
+            Globals.play2_defeat += 1;
+            StartCoroutine("reset");
+        }
+    }
+
+    IEnumerator reset()
+    {
+        game_over_canvas.SetActive(true);
+        game_over_text.SetActive(true);
+        yield return null;
     }
 }

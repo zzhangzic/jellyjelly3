@@ -7,6 +7,10 @@ TagManager:
   - trap1
   - river
   - ground
+  - coins
+  - fake
+  - checkpoint
+  - trap
   layers:
   - Default
   - TransparentFX
@@ -16,7 +20,7 @@ TagManager:
   - UI
   - 
   - 
-  - 
+  - water
   - 
   - 
   - 

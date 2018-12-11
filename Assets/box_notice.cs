@@ -6,12 +6,18 @@ public class box_notice : MonoBehaviour {
     public GameObject[] active_text;
     public GameObject[] disable_text;
     public GameObject outline;
+    public bool interacted;
 	// Use this for initialization
 	void Start () {
+        interacted = false;
 	}
 	
 	// Update is called once per frame
 	void Update () {
+        //if (Input.GetKeyDown("E"))
+        //{
+        //    interacted = !interacted;
+        //}
 		
 	}
 

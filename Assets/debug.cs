@@ -11,8 +11,6 @@ public class debug : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
-        Debug.Log(temp);
-        temp = this.GetComponent<Rope>().BreakForce;
 
     }
 }
