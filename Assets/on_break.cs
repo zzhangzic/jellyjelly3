@@ -17,8 +17,8 @@ public class on_break : MonoBehaviour {
 
     private void OnJointBreak2D(Joint2D joint)
     {
-        Globals.play1_defeat += 1;
-        Globals.play2_defeat += 1;
+        //Globals.play1_defeat += 1;
+        //Globals.play2_defeat += 1;
         Debug.Log("joint break");
         SceneManager.LoadScene("main");
     }

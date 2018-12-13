@@ -20,7 +20,6 @@ public class Globals : MonoBehaviour {
     }
     // Use this for initialization
     void Start() {
-        coin_collected = 0;
     }
 
     // Update is called once per frame
@@ -36,5 +35,6 @@ public class Globals : MonoBehaviour {
             Destroy(gameObject);
 
         DontDestroyOnLoad(gameObject);
+        coin_collected = 0;
     }
 }
