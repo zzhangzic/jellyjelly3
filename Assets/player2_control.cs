@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class player2_control : MonoBehaviour
 {
@@ -11,22 +12,12 @@ public class player2_control : MonoBehaviour
     public bool jumping;
     public GameObject player1;
     public bool grounded = false;
-    public Vector3 current_checkpoint;
     public GameObject player_objects;
-    public GameObject rope;
-    private float off_x;
-    private float off_y;
-    private float rope_x;
-    private float rope_y;
     public GameObject game_over_canvas;
     public GameObject game_over_text;
 
     private void Start()
     {
-        off_x = this.gameObject.transform.position.x - player1.transform.position.x;
-        off_y = this.gameObject.transform.position.y - player1.transform.position.y;
-        rope_x = rope.transform.position.x - this.gameObject.transform.position.x;
-        rope_y = rope.transform.position.y - this.gameObject.transform.position.y;
     }
 
     void Update()
@@ -90,12 +81,15 @@ public class player2_control : MonoBehaviour
         if (collision.gameObject.tag == "trap")
         {
             Globals.play2_defeat += 1;
+            this.enabled = false;
+            player1.GetComponent<player1_control>().enabled = false;
             StartCoroutine("reset");
         }
     }
 
     IEnumerator reset()
     {
+        //SceneManager.LoadScene("main");
         game_over_canvas.SetActive(true);
         game_over_text.SetActive(true);
         yield return null;

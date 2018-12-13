@@ -73,6 +73,8 @@ public class player1_control : MonoBehaviour {
     {
         if (collision.gameObject.tag == "trap")
         {
+            enabled = false;
+            player2.GetComponent<player2_control>().enabled = false;
             StartCoroutine("reset");
         }
     }
@@ -82,6 +84,7 @@ public class player1_control : MonoBehaviour {
         Globals.play1_defeat += 1;
         game_over_canvas.SetActive(true);
         game_over_text.SetActive(true);
+        //SceneManager.LoadScene("main");
         yield return null;
     }
 }

@@ -3,18 +3,38 @@ using System.Collections.Generic;
 using UnityEngine;
 
 public class Globals : MonoBehaviour {
-    public static int play1_defeat;
-    public static int play2_defeat;
+    public static int play1_defeat = 0;
+    public static int play2_defeat = 0;
     public static int coin_collected;
-	// Use this for initialization
-	void Start () {
-        play1_defeat = 0;
-        play2_defeat = 0;
+    private static Globals _instance;
+    public static Globals instance
+    {
+        get
+        {
+            if (_instance == null)
+            {
+                _instance = new GameObject("Gloabal_Variable").AddComponent<Globals>();
+            }
+            return _instance;
+        }
+    }
+    // Use this for initialization
+    void Start() {
         coin_collected = 0;
-	}
-	
-	// Update is called once per frame
-	void Update () {
-		
-	}
+    }
+
+    // Update is called once per frame
+    void Update() {
+
+    }
+
+    void Awake()
+    {
+        if (_instance == null)
+            _instance = this;
+        else if (_instance != this)
+            Destroy(gameObject);
+
+        DontDestroyOnLoad(gameObject);
+    }
 }

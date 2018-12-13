@@ -1776,6 +1776,7 @@ GameObject:
   - component: {fileID: 65727691}
   - component: {fileID: 65727693}
   - component: {fileID: 65727692}
+  - component: {fileID: 65727694}
   m_Layer: 0
   m_Name: checkpoint2 (2)
   m_TagString: Untagged
@@ -1802,13 +1803,13 @@ BoxCollider2D:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 65727690}
-  m_Enabled: 0
+  m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 1.7361617}
+  m_Offset: {x: 0.021938324, y: -0.06167507}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
@@ -1819,7 +1820,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 18.91, y: 7.382324}
+  m_Size: {x: 0.96486664, y: 0.9802685}
   m_EdgeRadius: 0
 --- !u!212 &65727693
 SpriteRenderer:
@@ -1867,6 +1868,18 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &65727694
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 65727690}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ab54bd1fe69e80842ad47966c12a5309, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  end: {fileID: 671641961}
 --- !u!1 &65848720
 GameObject:
   m_ObjectHideFlags: 0
@@ -2325,7 +2338,7 @@ HingeJoint2D:
   m_BreakTorque: 5
   m_AutoConfigureConnectedAnchor: 1
   m_Anchor: {x: 0, y: -0.0975}
-  m_ConnectedAnchor: {x: 0.00000015087427, y: 0.09750002}
+  m_ConnectedAnchor: {x: 0.0000009909273, y: 0.09751008}
   m_UseMotor: 0
   m_Motor:
     m_MotorSpeed: 0
@@ -2483,7 +2496,7 @@ HingeJoint2D:
   m_BreakTorque: 5
   m_AutoConfigureConnectedAnchor: 1
   m_Anchor: {x: 0, y: -0.0975}
-  m_ConnectedAnchor: {x: 0.00000027753416, y: 0.09750048}
+  m_ConnectedAnchor: {x: -0.0000021550807, y: 0.097495146}
   m_UseMotor: 0
   m_Motor:
     m_MotorSpeed: 0
@@ -2843,7 +2856,7 @@ HingeJoint2D:
   m_BreakTorque: 5
   m_AutoConfigureConnectedAnchor: 1
   m_Anchor: {x: 0, y: -0.0975}
-  m_ConnectedAnchor: {x: -0.0000002179295, y: 0.097500585}
+  m_ConnectedAnchor: {x: 0.0000028572979, y: 0.09750968}
   m_UseMotor: 0
   m_Motor:
     m_MotorSpeed: 0
@@ -6909,7 +6922,7 @@ HingeJoint2D:
   m_BreakTorque: 5
   m_AutoConfigureConnectedAnchor: 1
   m_Anchor: {x: 0, y: -0.0975}
-  m_ConnectedAnchor: {x: 0.00000015087427, y: 0.09750002}
+  m_ConnectedAnchor: {x: 0.0000009909273, y: 0.09751008}
   m_UseMotor: 0
   m_Motor:
     m_MotorSpeed: 0
@@ -7124,6 +7137,7 @@ GameObject:
   - component: {fileID: 223887518}
   - component: {fileID: 223887520}
   - component: {fileID: 223887519}
+  - component: {fileID: 223887521}
   m_Layer: 0
   m_Name: checkpoint2 (6)
   m_TagString: Untagged
@@ -7150,13 +7164,13 @@ BoxCollider2D:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 223887517}
-  m_Enabled: 0
+  m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_UsedByEffector: 0
+  m_IsTrigger: 1
+  m_UsedByEffector: 1
   m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 1.7361617}
+  m_Offset: {x: -0.006629944, y: 4.7960544}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
@@ -7167,7 +7181,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 18.91, y: 7.382324}
+  m_Size: {x: 0.99832153, y: 10.831655}
   m_EdgeRadius: 0
 --- !u!212 &223887520
 SpriteRenderer:
@@ -7215,6 +7229,18 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &223887521
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 223887517}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ab54bd1fe69e80842ad47966c12a5309, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  end: {fileID: 1341546769}
 --- !u!1 &228201322
 GameObject:
   m_ObjectHideFlags: 0
@@ -8925,7 +8951,7 @@ HingeJoint2D:
   m_BreakTorque: 5
   m_AutoConfigureConnectedAnchor: 1
   m_Anchor: {x: 0, y: -0.0975}
-  m_ConnectedAnchor: {x: 0.000000111758716, y: 0.097499534}
+  m_ConnectedAnchor: {x: 0.0000009909273, y: 0.09751008}
   m_UseMotor: 0
   m_Motor:
     m_MotorSpeed: 0
@@ -11631,6 +11657,7 @@ GameObject:
   - component: {fileID: 393626141}
   - component: {fileID: 393626140}
   - component: {fileID: 393626139}
+  - component: {fileID: 393626142}
   m_Layer: 5
   m_Name: Button (2)
   m_TagString: Untagged
@@ -11743,6 +11770,17 @@ CanvasRenderer:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 393626137}
   m_CullTransparentMesh: 0
+--- !u!114 &393626142
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 393626137}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2ab895943fa351443bee4c93cd07192d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &395901944
 GameObject:
   m_ObjectHideFlags: 0
@@ -12074,7 +12112,7 @@ HingeJoint2D:
   m_BreakTorque: 5
   m_AutoConfigureConnectedAnchor: 1
   m_Anchor: {x: 0.00000014528632, y: -0.09750006}
-  m_ConnectedAnchor: {x: 0.0034749985, y: 0.05695634}
+  m_ConnectedAnchor: {x: 0.0034759522, y: 0.0569561}
   m_UseMotor: 0
   m_Motor:
     m_MotorSpeed: 0
@@ -13106,7 +13144,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 1
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Yellow guy have already cause
+  m_Text: Yellow guy has already caused
 --- !u!222 &429562338
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -15647,7 +15685,7 @@ HingeJoint2D:
   m_BreakTorque: 5
   m_AutoConfigureConnectedAnchor: 1
   m_Anchor: {x: 0, y: -0.0975}
-  m_ConnectedAnchor: {x: 0.000000054016713, y: 0.09749955}
+  m_ConnectedAnchor: {x: 0.0000028572979, y: 0.09750968}
   m_UseMotor: 0
   m_Motor:
     m_MotorSpeed: 0
@@ -17005,7 +17043,7 @@ MonoBehaviour:
     Blame and yell at your friends for fun?
 
 
-    The game totally have X coins to collect
+    The game totally has 25 coins to collect
 
 '
 --- !u!222 &562273124
@@ -18119,6 +18157,217 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fb5e381031a17bb44b25abe72a158f48, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!1 &624249384
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 624249385}
+  - component: {fileID: 624249389}
+  - component: {fileID: 624249388}
+  - component: {fileID: 624249387}
+  - component: {fileID: 624249386}
+  m_Layer: 2
+  m_Name: Ground (282)
+  m_TagString: ground
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &624249385
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 624249384}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 100.64, y: -28.84, z: 1.3199997}
+  m_LocalScale: {x: 0.25395998, y: 0.22525999, z: 2}
+  m_Children: []
+  m_Father: {fileID: 1498931550}
+  m_RootOrder: 281
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!82 &624249386
+AudioSource:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 624249384}
+  m_Enabled: 1
+  serializedVersion: 4
+  OutputAudioMixerGroup: {fileID: 0}
+  m_audioClip: {fileID: 8300000, guid: a658c004269517148af0257ab1335264, type: 3}
+  m_PlayOnAwake: 0
+  m_Volume: 1
+  m_Pitch: 1
+  Loop: 0
+  Mute: 0
+  Spatialize: 0
+  SpatializePostEffects: 0
+  Priority: 128
+  DopplerLevel: 1
+  MinDistance: 1
+  MaxDistance: 500
+  Pan2D: 0
+  rolloffMode: 0
+  BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  reverbZoneMixCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+--- !u!114 &624249387
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 624249384}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 66cfd55cf4a42e441965777af2b8c279, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  temp: {fileID: 624249386}
+  global: {fileID: 0}
+--- !u!61 &624249388
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 624249384}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: -0.0018435121, y: -0.052703023}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 2.56, y: 2.56}
+    newSize: {x: 18.91, y: 3.91}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 2.1409082, y: 2.6521513}
+  m_EdgeRadius: 0
+--- !u!212 &624249389
+SpriteRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 624249384}
+  m_Enabled: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 0
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RenderingLayerMask: 4294967295
+  m_Materials:
+  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 0
+  m_SelectedEditorRenderState: 0
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_Sprite: {fileID: 21300000, guid: c1ce1be65fa901744898a224b57aa5aa, type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_FlipX: 0
+  m_FlipY: 0
+  m_DrawMode: 0
+  m_Size: {x: 18.91, y: 3.91}
+  m_AdaptiveModeThreshold: 0.5
+  m_SpriteTileMode: 0
+  m_WasSpriteAssigned: 1
+  m_MaskInteraction: 0
+  m_SpriteSortPoint: 0
 --- !u!1 &624269266
 GameObject:
   m_ObjectHideFlags: 0
@@ -18274,7 +18523,7 @@ HingeJoint2D:
   m_BreakTorque: 5
   m_AutoConfigureConnectedAnchor: 1
   m_Anchor: {x: 0, y: -0.0975}
-  m_ConnectedAnchor: {x: -0.0000003166497, y: 0.097500116}
+  m_ConnectedAnchor: {x: -0.0000040214513, y: 0.09749553}
   m_UseMotor: 0
   m_Motor:
     m_MotorSpeed: 0
@@ -20317,6 +20566,7 @@ GameObject:
   - component: {fileID: 710515086}
   - component: {fileID: 710515085}
   - component: {fileID: 710515084}
+  - component: {fileID: 710515087}
   m_Layer: 5
   m_Name: Button
   m_TagString: Untagged
@@ -20429,6 +20679,17 @@ CanvasRenderer:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 710515082}
   m_CullTransparentMesh: 0
+--- !u!114 &710515087
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 710515082}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2ab895943fa351443bee4c93cd07192d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &713577328
 GameObject:
   m_ObjectHideFlags: 0
@@ -20892,9 +21153,7 @@ MonoBehaviour:
   jumping: 0
   player1: {fileID: 1647218315}
   grounded: 0
-  current_checkpoint: {x: 0, y: 0, z: 0}
   player_objects: {fileID: 0}
-  rope: {fileID: 1069981716}
   game_over_canvas: {fileID: 1349677184}
   game_over_text: {fileID: 1060512762}
 --- !u!50 &733784411
@@ -26916,6 +27175,7 @@ GameObject:
   - component: {fileID: 943206380}
   - component: {fileID: 943206379}
   - component: {fileID: 943206378}
+  - component: {fileID: 943206381}
   m_Layer: 5
   m_Name: Button
   m_TagString: Untagged
@@ -27017,6 +27277,17 @@ CanvasRenderer:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 943206376}
   m_CullTransparentMesh: 0
+--- !u!114 &943206381
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 943206376}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2ab895943fa351443bee4c93cd07192d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &960132381
 GameObject:
   m_ObjectHideFlags: 0
@@ -27130,6 +27401,7 @@ GameObject:
   - component: {fileID: 963773166}
   - component: {fileID: 963773165}
   - component: {fileID: 963773169}
+  - component: {fileID: 963773170}
   m_Layer: 5
   m_Name: Canvas
   m_TagString: Untagged
@@ -27250,6 +27522,19 @@ VideoPlayer:
   m_Looping: 0
   m_WaitForFirstFrame: 1
   m_FrameReadyEventEnabled: 0
+--- !u!114 &963773170
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 963773164}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e5b136be06b5d3e4ab0eb8021bbf0f44, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  yellow_text: {fileID: 274852514}
+  green_text: {fileID: 1618973802}
 --- !u!1 &965836343
 GameObject:
   m_ObjectHideFlags: 0
@@ -28583,7 +28868,7 @@ HingeJoint2D:
   m_BreakTorque: 5
   m_AutoConfigureConnectedAnchor: 1
   m_Anchor: {x: 0, y: -0.0975}
-  m_ConnectedAnchor: {x: 0.00000021979214, y: 0.097500496}
+  m_ConnectedAnchor: {x: 0.0000009909273, y: 0.09751008}
   m_UseMotor: 0
   m_Motor:
     m_MotorSpeed: 0
@@ -29875,7 +30160,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 1
     m_VerticalOverflow: 1
     m_LineSpacing: 1
-  m_Text: "I, the guy that is controlling the green jelly, solemnly swear or affirm
+  m_Text: "I, the guy that is controlling the colored jelly, solemnly swear or affirm
     \nthat I will try my best effort to stop trolling my friend in the next game."
 --- !u!222 &1060512765
 CanvasRenderer:
@@ -30386,7 +30671,7 @@ HingeJoint2D:
   m_BreakTorque: Infinity
   m_AutoConfigureConnectedAnchor: 1
   m_Anchor: {x: 0, y: 0}
-  m_ConnectedAnchor: {x: -0.005137539, y: 0.038032547}
+  m_ConnectedAnchor: {x: -0.005138143, y: 0.03803253}
   m_UseMotor: 0
   m_Motor:
     m_MotorSpeed: 0
@@ -30409,7 +30694,7 @@ HingeJoint2D:
   m_BreakTorque: 5
   m_AutoConfigureConnectedAnchor: 1
   m_Anchor: {x: 0, y: -0.0975}
-  m_ConnectedAnchor: {x: -0.00000025704506, y: 0.0975001}
+  m_ConnectedAnchor: {x: -0.0000021550807, y: 0.097495146}
   m_UseMotor: 0
   m_Motor:
     m_MotorSpeed: 0
@@ -31039,7 +31324,7 @@ HingeJoint2D:
   m_BreakTorque: 5
   m_AutoConfigureConnectedAnchor: 1
   m_Anchor: {x: 0, y: -0.0975}
-  m_ConnectedAnchor: {x: 0.000000054016713, y: 0.09749955}
+  m_ConnectedAnchor: {x: 0.0000009909273, y: 0.09751008}
   m_UseMotor: 0
   m_Motor:
     m_MotorSpeed: 0
@@ -31575,7 +31860,7 @@ HingeJoint2D:
   m_BreakTorque: 5
   m_AutoConfigureConnectedAnchor: 1
   m_Anchor: {x: 0, y: -0.0975}
-  m_ConnectedAnchor: {x: 0.00000020861627, y: 0.097500004}
+  m_ConnectedAnchor: {x: 0.0000009909273, y: 0.09751008}
   m_UseMotor: 0
   m_Motor:
     m_MotorSpeed: 0
@@ -31690,6 +31975,7 @@ GameObject:
   - component: {fileID: 1115001492}
   - component: {fileID: 1115001491}
   - component: {fileID: 1115001490}
+  - component: {fileID: 1115001493}
   m_Layer: 5
   m_Name: Button (1)
   m_TagString: Untagged
@@ -31802,6 +32088,17 @@ CanvasRenderer:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1115001488}
   m_CullTransparentMesh: 0
+--- !u!114 &1115001493
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1115001488}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2ab895943fa351443bee4c93cd07192d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1119691685
 GameObject:
   m_ObjectHideFlags: 0
@@ -33272,7 +33569,7 @@ HingeJoint2D:
   m_BreakTorque: 5
   m_AutoConfigureConnectedAnchor: 1
   m_Anchor: {x: 0, y: -0.0975}
-  m_ConnectedAnchor: {x: 0.00000020861627, y: 0.097500004}
+  m_ConnectedAnchor: {x: 0.0000009909273, y: 0.09751008}
   m_UseMotor: 0
   m_Motor:
     m_MotorSpeed: 0
@@ -37575,7 +37872,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 1
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Green guy have already cause
+  m_Text: Green guy has already caused
 --- !u!222 &1320739660
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -38642,7 +38939,7 @@ HingeJoint2D:
   m_BreakTorque: 5
   m_AutoConfigureConnectedAnchor: 1
   m_Anchor: {x: 0, y: -0.0975}
-  m_ConnectedAnchor: {x: -0.0000002179295, y: 0.097500585}
+  m_ConnectedAnchor: {x: 0.0000009909273, y: 0.09751008}
   m_UseMotor: 0
   m_Motor:
     m_MotorSpeed: 0
@@ -39632,7 +39929,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1379560378}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 162.5, y: -26.4, z: 1.3199997}
+  m_LocalPosition: {x: 136.2, y: -28.84, z: 1.3199997}
   m_LocalScale: {x: 0.25395998, y: 0.22525999, z: 2}
   m_Children: []
   m_Father: {fileID: 1498931550}
@@ -41689,7 +41986,7 @@ HingeJoint2D:
   m_BreakTorque: 5
   m_AutoConfigureConnectedAnchor: 1
   m_Anchor: {x: 0, y: -0.0975}
-  m_ConnectedAnchor: {x: -0.00000018812717, y: 0.09750058}
+  m_ConnectedAnchor: {x: 0.0000009909273, y: 0.09751008}
   m_UseMotor: 0
   m_Motor:
     m_MotorSpeed: 0
@@ -42604,6 +42901,7 @@ Transform:
   - {fileID: 1379560379}
   - {fileID: 1078712828}
   - {fileID: 997860854}
+  - {fileID: 624249385}
   m_Father: {fileID: 0}
   m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -43377,7 +43675,7 @@ HingeJoint2D:
   m_BreakTorque: 5
   m_AutoConfigureConnectedAnchor: 1
   m_Anchor: {x: 0, y: -0.0975}
-  m_ConnectedAnchor: {x: -0.00000025704506, y: 0.0975001}
+  m_ConnectedAnchor: {x: -0.00000028871003, y: 0.09749475}
   m_UseMotor: 0
   m_Motor:
     m_MotorSpeed: 0
@@ -44107,7 +44405,7 @@ HingeJoint2D:
   m_BreakTorque: 5
   m_AutoConfigureConnectedAnchor: 1
   m_Anchor: {x: 0, y: -0.0975}
-  m_ConnectedAnchor: {x: 0.000000081956394, y: 0.09749954}
+  m_ConnectedAnchor: {x: 0.0000009909273, y: 0.09751008}
   m_UseMotor: 0
   m_Motor:
     m_MotorSpeed: 0
@@ -46604,7 +46902,7 @@ MonoBehaviour:
   grounded: 0
   player2: {fileID: 733784409}
   game_over_canvas: {fileID: 1349677184}
-  game_over_text: {fileID: 233703573}
+  game_over_text: {fileID: 1060512762}
 --- !u!95 &1647218321
 Animator:
   serializedVersion: 3
@@ -48303,7 +48601,7 @@ HingeJoint2D:
   m_BreakTorque: 5
   m_AutoConfigureConnectedAnchor: 1
   m_Anchor: {x: 0, y: -0.0975}
-  m_ConnectedAnchor: {x: 0.00000020861627, y: 0.097500004}
+  m_ConnectedAnchor: {x: 0.0000009909273, y: 0.09751008}
   m_UseMotor: 0
   m_Motor:
     m_MotorSpeed: 0
@@ -48875,7 +49173,7 @@ HingeJoint2D:
   m_BreakTorque: 5
   m_AutoConfigureConnectedAnchor: 1
   m_Anchor: {x: 0, y: -0.0975}
-  m_ConnectedAnchor: {x: 0.00000047497454, y: 0.09750141}
+  m_ConnectedAnchor: {x: -0.00000028871003, y: 0.09749475}
   m_UseMotor: 0
   m_Motor:
     m_MotorSpeed: 0
@@ -49951,7 +50249,7 @@ HingeJoint2D:
   m_BreakTorque: 5
   m_AutoConfigureConnectedAnchor: 1
   m_Anchor: {x: 0, y: -0.0975}
-  m_ConnectedAnchor: {x: 0.00000024959448, y: 0.09750049}
+  m_ConnectedAnchor: {x: -0.0000021550807, y: 0.097495146}
   m_UseMotor: 0
   m_Motor:
     m_MotorSpeed: 0
@@ -51780,7 +52078,7 @@ HingeJoint2D:
   m_BreakTorque: 5
   m_AutoConfigureConnectedAnchor: 1
   m_Anchor: {x: 0, y: -0.0975}
-  m_ConnectedAnchor: {x: -0.00000038370493, y: 0.09749964}
+  m_ConnectedAnchor: {x: 0.0000009909273, y: 0.09751008}
   m_UseMotor: 0
   m_Motor:
     m_MotorSpeed: 0
@@ -53502,7 +53800,7 @@ HingeJoint2D:
   m_BreakTorque: 5
   m_AutoConfigureConnectedAnchor: 1
   m_Anchor: {x: 0, y: -0.0975}
-  m_ConnectedAnchor: {x: 0.00000015087427, y: 0.09750002}
+  m_ConnectedAnchor: {x: 0.0000028572979, y: 0.09750968}
   m_UseMotor: 0
   m_Motor:
     m_MotorSpeed: 0
@@ -54913,6 +55211,7 @@ GameObject:
   - component: {fileID: 1881516407}
   - component: {fileID: 1881516406}
   - component: {fileID: 1881516405}
+  - component: {fileID: 1881516408}
   m_Layer: 5
   m_Name: Button (1)
   m_TagString: Untagged
@@ -55014,6 +55313,17 @@ CanvasRenderer:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1881516403}
   m_CullTransparentMesh: 0
+--- !u!114 &1881516408
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1881516403}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 42dc8207536d9b9478d22aaae3e581b7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1882269095
 GameObject:
   m_ObjectHideFlags: 0
@@ -56220,7 +56530,7 @@ HingeJoint2D:
   m_BreakTorque: 5
   m_AutoConfigureConnectedAnchor: 1
   m_Anchor: {x: 0, y: -0.0975}
-  m_ConnectedAnchor: {x: 0.00000047497454, y: 0.09750141}
+  m_ConnectedAnchor: {x: 0.0000009909273, y: 0.09751008}
   m_UseMotor: 0
   m_Motor:
     m_MotorSpeed: 0
@@ -56649,7 +56959,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1929563790}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -7.9, y: 0.1, z: -8.9453125}
+  m_LocalPosition: {x: 139.2, y: -31.9, z: -8.9453125}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 1069981717}
@@ -56815,7 +57125,7 @@ HingeJoint2D:
   m_BreakTorque: 5
   m_AutoConfigureConnectedAnchor: 1
   m_Anchor: {x: 0, y: -0.0975}
-  m_ConnectedAnchor: {x: 0.00000024959448, y: 0.09750049}
+  m_ConnectedAnchor: {x: -0.0000021550807, y: 0.097495146}
   m_UseMotor: 0
   m_Motor:
     m_MotorSpeed: 0
@@ -57860,6 +58170,7 @@ GameObject:
   - component: {fileID: 1975865119}
   - component: {fileID: 1975865118}
   - component: {fileID: 1975865117}
+  - component: {fileID: 1975865120}
   m_Layer: 5
   m_Name: Button
   m_TagString: Untagged
@@ -57961,6 +58272,17 @@ CanvasRenderer:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1975865115}
   m_CullTransparentMesh: 0
+--- !u!114 &1975865120
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1975865115}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2ab895943fa351443bee4c93cd07192d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1978387495
 GameObject:
   m_ObjectHideFlags: 0
@@ -59239,6 +59561,7 @@ GameObject:
   - component: {fileID: 2012929668}
   - component: {fileID: 2012929667}
   - component: {fileID: 2012929666}
+  - component: {fileID: 2012929669}
   m_Layer: 5
   m_Name: Button (1)
   m_TagString: Untagged
@@ -59340,6 +59663,18 @@ CanvasRenderer:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 2012929664}
   m_CullTransparentMesh: 0
+--- !u!114 &2012929669
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 2012929664}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ab54bd1fe69e80842ad47966c12a5309, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  end: {fileID: 0}
 --- !u!1 &2016455407
 GameObject:
   m_ObjectHideFlags: 0
@@ -59830,7 +60165,7 @@ HingeJoint2D:
   m_BreakTorque: 5
   m_AutoConfigureConnectedAnchor: 1
   m_Anchor: {x: 0, y: -0.0975}
-  m_ConnectedAnchor: {x: -0.0000003166497, y: 0.097500116}
+  m_ConnectedAnchor: {x: -0.0000021550807, y: 0.097495146}
   m_UseMotor: 0
   m_Motor:
     m_MotorSpeed: 0
@@ -60703,7 +61038,7 @@ HingeJoint2D:
   m_BreakTorque: 5
   m_AutoConfigureConnectedAnchor: 1
   m_Anchor: {x: 0, y: -0.0975}
-  m_ConnectedAnchor: {x: -0.0000003166497, y: 0.097500116}
+  m_ConnectedAnchor: {x: 0.0000009909273, y: 0.09751008}
   m_UseMotor: 0
   m_Motor:
     m_MotorSpeed: 0
